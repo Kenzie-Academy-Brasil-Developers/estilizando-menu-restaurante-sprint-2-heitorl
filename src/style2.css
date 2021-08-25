@@ -22,7 +22,7 @@ header h1{
 }
 
 
-#menu {columns: 420px 2; column-gap: 60px;}
+#menu {columns: 420px 2; column-gap: 60px; margin-top: 20px;}
 section {margin-bottom: 20px; padding: 10px;}
 
 /* Show each of the section headings of the menu (e.g. "Starters") in uppercase. */
@@ -57,4 +57,7 @@ address{
 /* draw a 2px thick black border around the starters and desserts sections of the menu */
 #starters, #desserts{
     border: 2px solid black;
+}
+section h2{
+    padding-bottom: 10px;
 }
